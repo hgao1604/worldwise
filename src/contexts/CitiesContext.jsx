@@ -62,7 +62,7 @@ function CitiesProvider({ children }) {
     async function fetchCities() {
       try {
         dispatch({ type: "loading" });
-        const res = await fetch(`${BASE_URL}`);
+        const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
         dispatch({ type: "cities/loaded", payload: data });
       } catch {
