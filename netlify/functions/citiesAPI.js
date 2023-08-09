@@ -2,7 +2,7 @@ const axios = require("axios");
 
 exports.handler = async function (event, context) {
   try {
-    const response = await axios.get("http://44.228.182.177:9001/cities");
+    const response = await axios.get("http://44.228.182.177:9001");
     return {
       statusCode: 200,
       body: JSON.stringify(response.data),
