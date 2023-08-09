@@ -10,7 +10,8 @@ const CitiesContext = createContext();
 //const BASE_URL = "http://localhost:9001";
 //const BASE_URL = "https://run.mocky.io/v3/f800a32d-f77a-42e2-acc7-3c5e198fc03d";
 //const BASE_URL = "http://44.228.182.177:443";
-const BASE_URL = "/.netlify/functions/citiesAPI";
+//const BASE_URL = "/.netlify/functions/citiesAPI";
+const BASE_URL = "https://worldwise.highcold.io/.netlify/functions/citiesAPI";
 
 const initialState = {
   cities: [],
